@@ -1,0 +1,85 @@
+{
+  "name": "electron-reactjs-scss-bootstrap-gulp-3",
+  "version": "1.0.0",
+  "description": "Example electron with reactjs, scss, bootstrap and gulp",
+  "repository": "https://github.com/suzumura-ss/electron-reactjs-scss-bootstrap-gulp-3.git",
+  "main": "main.js",
+  "babel": {
+    "presets": [
+      "react",
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ]
+    ]
+  },
+  "build": {
+    "appId": "info.smoche.electron-reactjs-scss-bootstrap-gulp-3",
+    "files": [
+      "**/*",
+      "!build/*",
+      "!src/*",
+      "!test/*",
+      "!.eslintignore",
+      "!.eslintrc.js",
+      "!.gitignore",
+      "!gulpfile.js",
+      "!package-lock.json"
+    ],
+    "mac": {
+      "category": "public.app-category.utilities"
+    },
+    "extraResources": []
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/electron .",
+    "lint": "gulp lint",
+    "lint:fix": "gulp lint:fix",
+    "compile": "gulp compile",
+    "watch": "gulp watch",
+    "package": "gulp package",
+    "test": "gulp test"
+  },
+  "author": "suzumura_ss",
+  "license": "ISC",
+  "devDependencies": {
+    "ajv": "^6.5.4",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.0.1",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "electron": "^3.0.2",
+    "electron-builder": "^20.28.4",
+    "eslint": "^5.6.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-plugin-html": "^4.0.6",
+    "eslint-plugin-import": "^2.14.0",
+    "eslint-plugin-node": "^7.0.1",
+    "eslint-plugin-promise": "^4.0.1",
+    "eslint-plugin-react": "^7.11.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "gulp": "^4.0.0",
+    "gulp-babel": "^7.0.1",
+    "gulp-mocha": "^6.0.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-shell": "^0.6.5",
+    "gulp-sourcemaps": "^2.6.4",
+    "node-sass": "^4.9.3",
+    "spectron": "^4.0.0"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap.native": "^2.0.23",
+    "commander": "^2.18.0",
+    "react": "^16.5.2",
+    "react-dom": "^16.5.2"
+  }
+}
