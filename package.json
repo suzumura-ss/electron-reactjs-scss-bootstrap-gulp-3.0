@@ -55,9 +55,9 @@
     "babel-register": "^6.26.0",
     "chai": "^4.2.0",
     "chai-as-promised": "^7.1.1",
-    "electron": "^3.0.2",
-    "electron-builder": "^20.28.4",
-    "eslint": "^5.6.0",
+    "electron": "^3.0.6",
+    "electron-builder": "^20.29.0",
+    "eslint": "^5.8.0",
     "eslint-config-standard": "^12.0.0",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-plugin-html": "^4.0.6",
@@ -69,17 +69,17 @@
     "gulp": "^4.0.0",
     "gulp-babel": "^7.0.1",
     "gulp-mocha": "^6.0.0",
-    "gulp-sass": "^4.0.1",
+    "gulp-sass": "^4.0.2",
     "gulp-shell": "^0.6.5",
     "gulp-sourcemaps": "^2.6.4",
-    "node-sass": "^4.9.3",
+    "node-sass": "^4.9.4",
     "spectron": "^4.0.0"
   },
   "dependencies": {
     "bootstrap": "^3.3.7",
-    "bootstrap.native": "^2.0.23",
-    "commander": "^2.18.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "bootstrap.native": "^2.0.24",
+    "commander": "^2.19.0",
+    "react": "^16.6.0",
+    "react-dom": "^16.6.0"
   }
 }
